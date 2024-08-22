@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CommonPipe } from './common.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CommonPipe
   ],
   imports: [
     BrowserModule,
